@@ -36,13 +36,15 @@ A fullstack dashboard app for visualizing sales data by region, month, sales rep
 ```bash
 git clone https://github.com/your-username/office-depot-dashboard.git
 cd office-depot-dashboard
+```
 
 ### 2. **Set Up Environment Variables**
 
 Create a .env file in the root (never commit secrets!):
+```bash
 PG_USER=your_pg_user
 PG_HOST=your_pg_host
 PG_DATABASE=your_pg_database
 PG_PASSWORD=your_pg_password
 PG_PORT=5432
-
+```
