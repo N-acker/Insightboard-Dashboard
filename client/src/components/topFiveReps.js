@@ -40,7 +40,8 @@ function TopFiveReps() {
   const [chartData, setChartData] = useState(null);
 
   useEffect(() => {
-    axios.get("http://localhost:4000/api/sales/top-reps")
+    // axios.get("http://localhost:4000/api/sales/top-reps")
+    axios.get("https://officedepot-dashboard-production.up.railway.app/top-reps")
       .then(res => {
         setChartData({
           labels: res.data.map(row => `${row.rep_name} (${row.products_sold})`),

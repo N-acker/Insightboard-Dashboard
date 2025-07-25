@@ -5,7 +5,8 @@ function SalesByProduct() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    axios.get("http://localhost:4000/api/sales/products")
+    // axios.get("http://localhost:4000/api/sales/products")
+    axios.get("https://officedepot-dashboard-production.up.railway.app/products")
       .then(res => {
         setData(res.data);
       });

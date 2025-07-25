@@ -50,7 +50,8 @@ function SalesByMonth() {
   const [chartData, setChartData] = useState(null);
 
   useEffect(() => {
-    axios.get("http://localhost:4000/api/sales/monthly")
+    // axios.get("http://localhost:4000/api/sales/monthly")
+    axios.get("https://officedepot-dashboard-production.up.railway.app/monthly")
       .then(res => {
         setChartData({
           labels: res.data.map(row => row.month),

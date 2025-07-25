@@ -9,7 +9,8 @@ function SalesByRegion() {
   const [chartData, setChartData] = useState(null);
 
   useEffect(() => {
-    axios.get("http://localhost:4000/api/sales/regions")
+    // axios.get("http://localhost:4000/api/sales/regions")
+    axios.get("https://officedepot-dashboard-production.up.railway.app/regions")
       .then(res => {
         setChartData({
           labels: res.data.map(row => row.region),
