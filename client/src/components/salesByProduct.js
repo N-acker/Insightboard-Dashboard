@@ -6,7 +6,7 @@ function SalesByProduct() {
 
   useEffect(() => {
     // axios.get("http://localhost:4000/api/sales/products")
-    axios.get("https://officedepot-dashboard-production.up.railway.app/products")
+    axios.get('https://officedepot-dashboard-production.up.railway.app/api/sales/products')
       .then(res => {
         setData(res.data);
       });
