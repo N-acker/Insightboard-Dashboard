@@ -48,3 +48,18 @@ PG_DATABASE=your_pg_database
 PG_PASSWORD=your_pg_password
 PG_PORT=5432
 ```
+
+### 3. **Install Dependencies**
+
+**Client**
+```bash
+npm install chart.js react-chartjs-2 axios
+```
+**Server**
+```bash
+npm install express cors pg dotenv
+```
+
+### 4. **Prepare Your Database**
+
+
