@@ -62,4 +62,30 @@ npm install express cors pg dotenv
 
 ### 4. **Prepare Your Database**
 
+- Create a Postgres database named salesdb.
+- Run the SQL in setup.sql (or manually create the sales table and seed dummy data).
+
+### 5. **Start Up**
+
+**Frontend**
+```bash
+npm start (and open up in http://localhost:3000)
+or
+npm build (copy build folder and paste into server folder)
+```
+**Backend**
+```bash
+node server
+```
+- Visit http://localhost:4000
+
+---
+
+## 📊 API Endpoints
+
+- GET /api/sales/regions — Sales by region
+- GET /api/sales/monthly — Sales by month
+- GET /api/sales/top-reps — Top 5 reps, with products sold
+- GET /api/sales/products — Sales by product
+
 
