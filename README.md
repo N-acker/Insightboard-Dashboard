@@ -2,7 +2,8 @@
 
 A fullstack dashboard app for visualizing sales data by region, month, sales rep, and product — powered by **Node.js, Express, PostgreSQL, React, and Chart.js**.
 
-![dashboard-preview](./preview.png) <!-- (Optional: Add a screenshot named preview.png to your repo!) -->
+<img width="1084" height="853" alt="image" src="https://github.com/user-attachments/assets/b7ed061f-b55d-4348-83a9-175387882c84" />
+
 
 ---
 
