@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #020711ff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.dashboard-root {
+  min-height: 100vh;
+  background: #f8fafc;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 32px 0 16px 0;
+}
+
+header h1 {
+  margin-bottom: 0;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  color: #32415b;
+}
+
+header h2 {
+  margin-top: 0;
+  color: #537bc4;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 24px;
+  padding: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.dashboard-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px #b2bac77e;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 300px;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.dashboard-card h3,
+.dashboard-card h4 {
+  margin-top: 12px;
+  margin-bottom: 18px;
+  font-size: 1.17em;
+  text-align: center;
+}
+
+
+/* Make all inner chart/table elements responsive */
+.dashboard-card > *:not(h3):not(h4) {
+  width: 98% !important;
+  max-width: 520px;       /* Wider cards */
+  max-height: none;       /* Remove chart/table vertical squeezing */
+  margin: 0 auto;
+}
+
+
+.dashboard-card:hover {
+  box-shadow: 0 4px 20px #90a2c5b7;
+}
+
+
+
