@@ -4,6 +4,7 @@ A fullstack dashboard app for visualizing sales data by region, month, sales rep
 
 <img width="1084" height="853" alt="image" src="https://github.com/user-attachments/assets/b7ed061f-b55d-4348-83a9-175387882c84" />
 
+**Here's a Demo:** https://officedepot-dashboard-production.up.railway.app/
 
 ---
 
