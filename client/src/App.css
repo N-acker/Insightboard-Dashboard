@@ -89,5 +89,24 @@ header h2 {
   box-shadow: 0 4px 20px #90a2c5b7;
 }
 
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns on desktop/tablet */
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* MOBILE: When the screen is less than 600px wide, show one card per row */
+@media (max-width: 600px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;   /* stack cards vertically */
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .card {
+    min-width: 0; /* ensures cards don’t overflow */
+  }
+}
+
 
 
